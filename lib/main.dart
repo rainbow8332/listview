@@ -37,31 +37,31 @@ class _RandomWordsState extends State<RandomWords> {
     );
   }
 
-  Widget _getRow(WordPair wordPair) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        ListTile(
-          title: Text(
-            wordPair.asCamelCase,
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-          subtitle: Text(
-            wordPair.asCamelCase,
-          ),
-          trailing: Icon(
-            Icons.favorite,
-            color: Colors.redAccent,
-          ),
-        ),
-        Divider(
-          thickness: 1,
-          color: Colors.grey[300],
-          height: 5,
-          indent: 16,
-          endIndent: 16,
-        )
-      ],
-    );
-  }
-}
+//   Widget _getRow(WordPair wordPair) {
+//     return Column(
+//       crossAxisAlignment: CrossAxisAlignment.start,
+//       children: <Widget>[
+//         ListTile(
+//           title: Text(
+//             wordPair.asCamelCase,
+//             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+//           ),
+//           subtitle: Text(
+//             wordPair.asCamelCase,
+//           ),
+//           trailing: Icon(
+//             Icons.favorite,
+//             color: Colors.redAccent,
+//           ),
+//         ),
+//         Divider(
+//           thickness: 1,
+//           color: Colors.grey[300],
+//           height: 5,
+//           indent: 16,
+//           endIndent: 16,
+//         )
+//       ],
+//     );
+//   }
+// }
