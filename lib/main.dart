@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Flutter Application"),
+          title: Text("Flutter Application 2"),
         ),
         body: Center(child: RandomWords()),
       ),
